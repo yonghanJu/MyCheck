@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/goalPage"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:isScrollContainer="true"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/todayText"
+                android:layout_width="113dp"
+                android:layout_height="71dp"
+                android:layout_weight="0"
+                android:paddingTop="30sp"
+                android:text="Today"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/CircularDeterminateProgressBar"
+            android:progressDrawable="@drawable/circle"
+            android:layout_width="match_parent"
+            android:indeterminate="false"
+            android:layout_height="111dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/weekText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="weekly goal"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="8sp">
+
+        <ProgressBar
+            android:id="@+id/progressBarMon"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTue"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+        <ProgressBar
+            android:id="@+id/progressBarWed"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+        <ProgressBar
+            android:id="@+id/progressThu"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+        <ProgressBar
+            android:id="@+id/progressBarFri"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+        <ProgressBar
+            android:id="@+id/progressBarSat"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+        <ProgressBar
+            android:id="@+id/progressBarSun"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="40sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:progress="80"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            android:progressTint="#80DEEA" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Mon   Tue   Wed   Thu   Fri   Sat   Sun"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+</LinearLayout>
