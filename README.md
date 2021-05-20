@@ -1,5 +1,5 @@
 # MyCheck
-###"MyCheck" is a smart watch-only application created through Android Studio.
+### "MyCheck" is a smart watch-only application created through Android Studio.
 
 
 
